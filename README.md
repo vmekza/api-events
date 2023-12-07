@@ -1,4 +1,4 @@
-# EventRelationsAPI Project
+# Event Relations API Project
 
 ## Author:
 
