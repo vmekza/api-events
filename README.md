@@ -6,9 +6,24 @@ This project is an API service designed to manage and retrieve information about
 
 - Ekaterina Zavyalova
 
-## Instructions to set up and run:
+## Technology Stack
 
-To set up and run the project, navigate to the project directory and execute the following commands:
+This project is built using a variety of technologies and tools, which include:
+
+- Node.js: The JavaScript runtime used to execute the server-side code.
+- Express.js: Web application framework for Node.js, facilitating the creation of API endpoints.
+- SQLite: File-based database system used for storing application data.
+- Sequelize: ORM library for Node.js, simplifying database queries and schema management.
+- Body-Parser: Middleware for parsing JSON request bodies in Express.js.
+- Routing: Organized API routes using Express routers for different data entities like events, venues, and speakers.
+- Data Modeling: Defined models using Sequelize for database tables and relationships.
+
+## Setup and Running Instructions:
+
+1. Clone the repository to your local machine.
+2. Ensure SQLite is installed on your system, as it is required for data storage and retrieval.
+3. Navigate to the project directory.
+4. Run the following commands:
 
 - cd [directory of the project]
 - npm install
