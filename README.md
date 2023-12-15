@@ -1,10 +1,10 @@
 # Event Relations API Project
+This project is an API service designed to manage and retrieve information about events, venues, and speakers. It provides a comprehensive set of endpoints for creating, updating, and querying data related to various aspects of event management.
 
 ## Author:
 
 - Ekaterina Zavyalova
 
-## Date: 28.11.2023
 
 ## Instructions to set up and run:
 
@@ -17,34 +17,18 @@ To set up and run the project, navigate to the project directory and execute the
 ### API Endpoints to Test in Postman Tool
 
 To effectively test and interact with the API, the Postman tool is recommended as it was used in project development.
+The API provides several endpoints to manage and retrieve data about events, venues, and speakers. Below are the details of these endpoints:
 
 ### EVENTS
 
 ##### 1. Get Events
 
-- **Method**: GET
-- **URL**: `http://localhost:3000/events`
-- **Description**: Retrieves a list of all events.
-
-- **Method**: GET
-- **URL**: `http://localhost:3000/events?eventId={event ID}`
-- **Description**: Retrieves an event with the specified ID.
-
-- **Method**: GET
-- **URL**: `http://localhost:3000/events?eventName={event name}`
-- **Description**: Retrieves an event with the specified name.
-
-- **Method**: GET
-- **URL**: `http://localhost:3000/events?eventDate={event date}`
-- **Description**: Retrieves an event with the specified date (in format yyyy-mm-dd).
-
-- **Method**: GET
-- **URL**: `http://localhost:3000/events?venueId={venue ID}`
-- **Description**: Retrieves an event with the specified venue ID.
-
-- **Method**: GET
-- **URL**: `http://localhost:3000/events?venueName={venue name}`
-- **Description**: Retrieves an event with the specified venue name.
+- GET /events - Retrieves a list of all events.
+- GET /events?eventId={event ID} - Retrieves an event by ID.
+- GET /events?eventName={event name} - Retrieves an event by name.
+- GET /events?eventDate={event date} - Retrieves an event by date.
+- GET /events?venueId={venue ID} - Retrieves events by venue ID.
+- GET /events?venueName={venue name} - Retrieves events by venue name.
 
 ##### 2. Create Event
 
