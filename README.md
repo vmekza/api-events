@@ -14,7 +14,7 @@ This project is built using a variety of technologies and tools, which include:
 - Routing: Organized API routes using Express routers for different data entities like events, venues, and speakers.
 - Data Modeling: Defined models using Sequelize for database tables and relationships.
 
-## Setup and Running Instructions:
+## Setup and Running Instructions
 
 1. Clone the repository to your local machine.
 2. Ensure SQLite is installed on your system, as it is required for data storage and retrieval.
