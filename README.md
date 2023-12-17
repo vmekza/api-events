@@ -2,10 +2,6 @@
 
 This project is an API service designed to manage and retrieve information about events, venues, and speakers. It provides a comprehensive set of endpoints for creating, updating, and querying data related to various aspects of event management.
 
-## Author:
-
-- Ekaterina Zavyalova
-
 ## Technology Stack
 
 This project is built using a variety of technologies and tools, which include:
